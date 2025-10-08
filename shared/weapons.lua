@@ -151,4 +151,7 @@ return {
     -- Animals
     [`weapon_animal`]               = {name = 'weapon_animal',	label = 'Animal',	weapontype = 'Animals',	ammotype = nil,	damagereason = 'Mauled'},
     [`weapon_cougar`]               = {name = 'weapon_cougar',	label = 'Cougar',	weapontype = 'Animals',	ammotype = nil,	damagereason = 'Mauled'},
+
+    ['weapon_radar']                = {name = 'weapon_radar',   label = 'Police Radar', weapontype = 'Miscellaneous', ammotype = nil, damagereason = 'None'},
+
 }
