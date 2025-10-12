@@ -349,4 +349,15 @@ return {
             },
         },
     },
+    ['hobo'] = {
+        label = 'Hobo',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Street Rat',
+                payment = 10
+            },
+        },
+    },
 }
