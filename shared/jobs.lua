@@ -162,32 +162,43 @@ return {
             },
         },
     },
+    -- ['taxi'] = {
+    --     label = 'Taxi',
+    --     defaultDuty = true,
+    --     offDutyPay = false,
+    --     grades = {
+    --         [0] = {
+    --             name = 'Recruit',
+    --             payment = 50
+    --         },
+    --         [1] = {
+    --             name = 'Driver',
+    --             payment = 75
+    --         },
+    --         [2] = {
+    --             name = 'Event Driver',
+    --             payment = 100
+    --         },
+    --         [3] = {
+    --             name = 'Sales',
+    --             payment = 125
+    --         },
+    --         [4] = {
+    --             name = 'Manager',
+    --             isboss = true,
+    --             bankAuth = true,
+    --             payment = 150
+    --         },
+    --     },
+    -- },
     ['taxi'] = {
         label = 'Taxi',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            [1] = {
                 name = 'Driver',
-                payment = 75
-            },
-            [2] = {
-                name = 'Event Driver',
-                payment = 100
-            },
-            [3] = {
-                name = 'Sales',
-                payment = 125
-            },
-            [4] = {
-                name = 'Manager',
-                isboss = true,
-                bankAuth = true,
-                payment = 150
+                payment = 50
             },
         },
     },
@@ -357,6 +368,83 @@ return {
             [0] = {
                 name = 'Street Rat',
                 payment = 10
+            },
+        },
+    },
+    ['builder'] = {
+        label = 'Builder',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Crew',
+                payment = 50
+            },
+        },
+    },
+    ['gruppe6'] = {
+        label = 'Gruppe Sechs',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Guard',
+                payment = 50
+            },
+        },
+    },
+    ['lumberjack'] = {
+        label = 'Lumberjack',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Crew',
+                payment = 50
+            },
+        },
+    },
+    ['miner'] = {
+        label = 'Miner',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Crew',
+                payment = 50
+            },
+        },
+    },
+    ['oilrig'] = {
+        label = 'Oil Rig',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Crew',
+                payment = 50
+            },
+        },
+    },
+    ['windowcleaning'] = {
+        label = 'Window Cleaning',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Crew',
+                payment = 50
+            },
+        },
+    },
+    ['postop'] = {
+        label = 'PostOp',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Delivery Driver',
+                payment = 50
             },
         },
     },
