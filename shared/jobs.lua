@@ -214,7 +214,94 @@ return {
         },
     },
     ['cardealer'] = {
-        label = 'Vehicle Dealer',
+        label = 'Luxury Auto Dealer',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            [2] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            [3] = {
+                name = 'Finance',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['western'] = {
+        label = 'Western Motors Dealer',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            [2] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            [3] = {
+                name = 'Finance',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['redlineautos'] = {
+        label = 'Redline Autos Dealer',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Showroom Sales',
+                payment = 75
+            },
+            [2] = {
+                name = 'Business Sales',
+                payment = 100
+            },
+            [3] = {
+                name = 'Finance',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['sanders'] = {
+        label = 'Saunders Motors Dealer',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
@@ -448,4 +535,40 @@ return {
             },
         },
     },
+    ['rideme'] = {
+        label = 'Ride Me',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Driver',
+                payment = 50
+            },
+        },
+    },
+    ['doj'] = {
+        label = 'DOJ',
+        type = 'doj',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Lawyer',
+                payment = 50
+            },
+            [1] = {
+                name = 'IRS',
+                payment = 75
+            },
+            [2] = {
+                name = 'Prosecutor',
+                payment = 100
+            },
+            [3] = {
+                name = 'Judge',
+                payment = 125
+            },
+        },
+    },
+
 }
