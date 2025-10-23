@@ -301,7 +301,7 @@ return {
         },
     },
     ['sanders'] = {
-        label = 'Saunders Motors Dealer',
+        label = 'Saunders Motors',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
@@ -329,8 +329,188 @@ return {
             },
         },
     },
+    ['sandersmechanic'] = {
+        label = 'Saunders Motors Mechanic',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['tobin'] = {
+        label = 'Tobin Towing',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['eastcustoms'] = {
+        label = 'East Customs',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['redline'] = {
+        label = 'Redline Performance',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
     ['mechanic'] = {
         label = 'Mechanic',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['lscustoms'] = {
+        label = 'LS Customs',
+        type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['cruisin'] = {
+        label = 'Cruisin Craftmen',
         type = 'mechanic',
         defaultDuty = true,
         offDutyPay = false,
