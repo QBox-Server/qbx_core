@@ -343,7 +343,28 @@ lib.addCommand('gang', {
     Notify(source, locale('info.gang_info', PlayerGang?.label, PlayerGang?.grade.name))
 end)
 
-lib.addCommand('setgang', {
+-- lib.addCommand('setgang', {
+--     help = locale('command.setgang.help'),
+--     params = {
+--         { name = locale('command.setgang.params.id.name'), help = locale('command.setgang.params.id.help'), type = 'playerId' },
+--         { name = locale('command.setgang.params.gang.name'), help = locale('command.setgang.params.gang.help'), type = 'string' },
+--         { name = locale('command.setgang.params.grade.name'), help = locale('command.setgang.params.grade.help'), type = 'number', optional = true }
+--     },
+--     restricted = 'group.admin'
+-- }, function(source, args)
+--     if not IsOptin(source) then Notify(source, locale('error.not_optin'), 'error') return end
+
+--     local player = GetPlayer(args[locale('command.setgang.params.id.name')])
+--     if not player then
+--         Notify(source, locale('error.not_online'), 'error')
+--         return
+--     end
+
+--     local success, errorResult = player.Functions.SetGang(args[locale('command.setgang.params.gang.name')], args[locale('command.setgang.params.grade.name')] or 0)
+--     assert(success, json.encode(errorResult))
+-- end)
+
+lib.addCommand('setgang', { -- added from brutal-gangs #MTRP
     help = locale('command.setgang.help'),
     params = {
         { name = locale('command.setgang.params.id.name'), help = locale('command.setgang.params.id.help'), type = 'playerId' },
@@ -352,15 +373,17 @@ lib.addCommand('setgang', {
     },
     restricted = 'group.admin'
 }, function(source, args)
-    if not IsOptin(source) then Notify(source, locale('error.not_optin'), 'error') return end
-
     local player = GetPlayer(args[locale('command.setgang.params.id.name')])
     if not player then
         Notify(source, locale('error.not_online'), 'error')
         return
     end
 
+    local newGang = {name = args[locale('command.setgang.params.gang.name')]}
+    local lastGang = json.encode(player.PlayerData.gang)
+
     local success, errorResult = player.Functions.SetGang(args[locale('command.setgang.params.gang.name')], args[locale('command.setgang.params.grade.name')] or 0)
+    TriggerEvent('brutal_gangs:server:qbcore-gang-update', player.PlayerData.source, newGang, json.decode(lastGang))
     assert(success, json.encode(errorResult))
 end)
 
