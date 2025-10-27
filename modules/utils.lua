@@ -464,6 +464,7 @@ else
     function DeleteVehicle(vehicle) -- luacheck: ignore
         SetEntityAsMissionEntity(vehicle, true, true)
         _deleteVehicle(vehicle)
+        TriggerEvent("Pug:client:PutFlatbedAwayCustomEvent")
         return DoesEntityExist(vehicle)
     end
 
