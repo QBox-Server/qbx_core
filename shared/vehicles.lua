@@ -3128,7 +3128,7 @@ return {
         brand = 'JoBuilt',
         model = 'hauler2',
         price = 70102,
-        category = 'commercial',
+        category = 'weaponized',
         type = 'automobile',
         hash = `hauler2`,
     },
@@ -4693,7 +4693,7 @@ return {
         brand = 'JoBuilt',
         model = 'phantom2',
         price = 72230,
-        category = 'commercial',
+        category = 'weaponized',
         type = 'automobile',
         hash = `phantom2`,
     },
@@ -8080,7 +8080,7 @@ return {
         brand = 'Brute',
         model = 'stockade4',
         price = 500000,
-        category = 'commercial',
+        category = 'weaponized',
         type = 'automobile',
         hash = `stockade4`,
     },
@@ -8111,8 +8111,17 @@ return {
         type = 'automobile',
         hash = `woodlander`,
     },
-
-    -- CUSTOM EMERGENCY VEHICLES -
+    -- CUSTOM VEHICLES --
+    flatbed3 = { -- pug-tow
+        name = 'Flatbed',
+        brand = 'Vapid',
+        model = 'flatbed3',
+        price = 45000,
+        category = 'industrial',
+        type = 'automobile',
+        hash = `flatbed3`,
+    },
+    -- JAKERS VEHICLES --
         -- Medical
     sebbjv = {
         name = 'Buffalo STX',
@@ -8367,5 +8376,15 @@ return {
         category = 'vip',
         type = 'automobile',
         hash = `vstrw`,
+    },
+    
+    vrunnerrc = {
+        name = 'Runner Flatbed',
+        brand = 'Vapid',
+        model = 'vrunnerrc',
+        price = 50000,
+        category = 'industrial',
+        type = 'automobile',
+        hash = `vrunnerrc`,
     },
 }
