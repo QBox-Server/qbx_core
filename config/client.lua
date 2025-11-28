@@ -54,26 +54,26 @@ return {
     discord = {
         enabled = true, -- This will enable or disable the built in discord rich presence.
 
-        appId = '1024981890798731345', -- This is the Application ID (Replace this with you own)
+        appId = '1439766494954127372', -- This is the Application ID (Replace this with you own)
 
         largeIcon = { -- To set this up, visit https://forum.cfx.re/t/how-to-updated-discord-rich-presence-custom-image/157686
-            icon = 'duck', -- Here you will have to put the image name for the 'large' icon.
-            text = 'Qbox Ducky', -- Here you can add hover text for the 'large' icon.
+            icon = 'mtrp1024', -- Here you will have to put the image name for the 'large' icon.
+            text = 'Mythic Trails RP', -- Here you can add hover text for the 'large' icon.
         },
 
         smallIcon = {
-            icon = 'logo_name', -- Here you will have to put the image name for the 'small' icon.
-            text = 'This is a small icon with text', -- Here you can add hover text for the 'small' icon.
+            icon = 'mtrp512', -- Here you will have to put the image name for the 'small' icon.
+            text = 'Join Today!', -- Here you can add hover text for the 'small' icon.
         },
 
         firstButton = {
-            text = 'Qbox Discord',
-            link = 'https://discord.gg/Z6Whda5hHA',
+            text = 'Join the Discord',
+            link = 'https://discord.gg/UNvEyv44JW',
         },
 
         secondButton = {
-            text = 'Main Website',
-            link = 'https://www.qbox.re/',
+            text = 'Connect to Server',
+            link = 'https://cfx.re/join/4zpom5',
         }
     },
 
