@@ -3388,7 +3388,7 @@ return {
         brand = 'HVY',
         model = 'insurgent',
         price = 59045,
-        category = 'offroad',
+        category = 'weaponized',
         type = 'automobile',
         hash = `insurgent`,
     },
@@ -3406,7 +3406,7 @@ return {
         brand = 'HVY',
         model = 'insurgent3',
         price = 59045,
-        category = 'offroad',
+        category = 'weaponized',
         type = 'automobile',
         hash = `insurgent3`,
     },
@@ -8377,7 +8377,6 @@ return {
         type = 'automobile',
         hash = `vstrw`,
     },
-    
     vrunnerrc = {
         name = 'Runner Flatbed',
         brand = 'Vapid',
