@@ -195,6 +195,7 @@ return {
     -- [`WEAPON_FNX_VENOM`] = {name = 'weapon_fnx_venom', label = 'FNX Venom', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Shot / Slammed'},
     -- [`WEAPON_GLOCK17GEN4`] = {name = 'weapon_glock17gen4', label = 'Glock 17 Gen4', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Shot / Slammed'},
     -- [`WEAPON_GLOCK19`] = {name = 'weapon_glock19', label = 'Glock 19', weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Shot / Slammed'},
+
     -- [`WEAPON_MAC10`] = {name = 'weapon_mac10', label = 'MAC-10', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
     -- [`WEAPON_MP5`] = {name = 'weapon_mp5', label = 'H&K MP5', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
     -- [`WEAPON_MP7`] = {name = 'weapon_mp7', label = 'H&K MP7', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
@@ -204,6 +205,7 @@ return {
     -- [`WEAPON_UMP45`] = {name = 'weapon_ump45', label = 'H&K UMP45', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
     -- [`WEAPON_UZI`] = {name = 'weapon_uzi', label = 'IMI Uzi', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
     -- [`WEAPON_VECTOR`] = {name = 'weapon_vector', label = 'KRISS Vector', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Sprayed'},
+    
     -- [`WEAPON_AK47`] = {name = 'weapon_ak47', label = 'AK-47', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
     -- [`WEAPON_AK74U`] = {name = 'weapon_ak74u', label = 'AK-74U', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
     -- [`WEAPON_AKG`] = {name = 'weapon_akg', label = 'AK Ghost', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
@@ -214,7 +216,8 @@ return {
     -- [`WEAPON_FCX`] = {name = 'weapon_fcx', label = 'SIG MCX', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
     -- [`WEAPON_M4`] = {name = 'weapon_m4', label = 'M4A1 Carbine', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
     -- [`WEAPON_M16`] = {name = 'weapon_m16', label = 'Colt M16A4', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Rifled / Pierced / Devastated'},
-    -- [`WEAPON_M500`] = {name = 'weapon_m500', label = 'Smith & Wesson M500', weapontype = 'Special', ammotype = 'AMMO_HEAVY', damagereason = 'Blasted / Pulverized / Devastated'},
+    
     -- [`WEAPON_RM870`] = {name = 'weapon_rm870', label = 'Remington 870', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Blasted / Pulverized / Shotgunned'},
+    -- [`WEAPON_M500`] = {name = 'weapon_m500', label = 'Smith & Wesson M500', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Blasted / Pulverized / Devastated'},
 
 }
