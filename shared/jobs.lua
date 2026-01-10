@@ -8,7 +8,7 @@ return {
         grades = {
             [0] = {
                 name = 'Freelancer',
-                payment = 10
+                payment = 25
             },
         },
     },
@@ -20,71 +20,71 @@ return {
         grades = {
             [0] = {
                 name = 'Cadet',
-                payment = 1000
+                payment = 100
             },
             [1] = {
                 name = 'Probationary Officer',
-                payment = 1500
+                payment = 150
             },
             [2] = {
                 name = 'Officer I',
-                payment = 2000
+                payment = 200
             },
             [3] = {
                 name = 'Officer II',
-                payment = 2500
+                payment = 250
             },
             [4] = {
                 name = 'Officer III',
-                payment = 3000
+                payment = 300
             },
             [5] = {
                 name = 'Sergeant I',
-                payment = 4000
+                payment = 400
             },
             [6] = {
                 name = 'Sergeant II',
-                payment = 4500
+                payment = 450
             },
             [7] = {
                 name = 'Sergeant III',
-                payment = 5000
+                payment = 500
             },
             [8] = {
                 name = 'Lieutenant',
                 isboss = true,
                 bankAuth = true,
-                payment = 10000
+                payment = 1000
             },
             [9] = {
                 name = 'Captain',
                 isboss = true,
                 bankAuth = true,
-                payment = 13000
+                payment = 1300
             },
             [10] = {
                 name = 'Major',
                 isboss = true,
                 bankAuth = true,
-                payment = 15000
+                payment = 1500
             },
             [11] = {
                 name = 'Deputy Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 18000
+                payment = 1800
             },
             [12] = {
                 name = 'Assistant Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 20000
+                payment = 2000
             },
             [13] = {
                 name = 'Chief Of Police',
                 isboss = true,
                 bankAuth = true,
-                payment = 22000
+                payment = 2200
             },
         },
     },
@@ -96,71 +96,71 @@ return {
         grades = {
             [0] = {
                 name = 'Cadet',
-                payment = 1000
+                payment = 100
             },
             [1] = {
                 name = 'Probationary Officer',
-                payment = 1500
+                payment = 150
             },
             [2] = {
                 name = 'Officer I',
-                payment = 2000
+                payment = 200
             },
             [3] = {
                 name = 'Officer II',
-                payment = 2500
+                payment = 250
             },
             [4] = {
                 name = 'Officer III',
-                payment = 3000
+                payment = 300
             },
             [5] = {
                 name = 'Sergeant I',
-                payment = 4000
+                payment = 400
             },
             [6] = {
                 name = 'Sergeant II',
-                payment = 4500
+                payment = 450
             },
             [7] = {
                 name = 'Sergeant III',
-                payment = 5000
+                payment = 500
             },
             [8] = {
                 name = 'Lieutenant',
                 isboss = true,
                 bankAuth = true,
-                payment = 10000
+                payment = 1000
             },
             [9] = {
                 name = 'Captain',
                 isboss = true,
                 bankAuth = true,
-                payment = 13000
+                payment = 1300
             },
             [10] = {
                 name = 'Major',
                 isboss = true,
                 bankAuth = true,
-                payment = 15000
+                payment = 1500
             },
             [11] = {
                 name = 'Deputy Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 18000
+                payment = 1800
             },
             [12] = {
                 name = 'Assistant Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 20000
+                payment = 2000
             },
             [13] = {
                 name = 'Chief Of Police',
                 isboss = true,
                 bankAuth = true,
-                payment = 22000
+                payment = 2200
             },
         },
     },
@@ -172,71 +172,71 @@ return {
         grades = {
             [0] = {
                 name = 'Cadet',
-                payment = 1000
+                payment = 100
             },
             [1] = {
                 name = 'Probationary Officer',
-                payment = 1500
+                payment = 150
             },
             [2] = {
                 name = 'Officer I',
-                payment = 2000
+                payment = 200
             },
             [3] = {
                 name = 'Officer II',
-                payment = 2500
+                payment = 250
             },
             [4] = {
                 name = 'Officer III',
-                payment = 3000
+                payment = 300
             },
             [5] = {
                 name = 'Sergeant I',
-                payment = 4000
+                payment = 400
             },
             [6] = {
                 name = 'Sergeant II',
-                payment = 4500
+                payment = 450
             },
             [7] = {
                 name = 'Sergeant III',
-                payment = 5000
+                payment = 500
             },
             [8] = {
                 name = 'Lieutenant',
                 isboss = true,
                 bankAuth = true,
-                payment = 10000
+                payment = 1000
             },
             [9] = {
                 name = 'Captain',
                 isboss = true,
                 bankAuth = true,
-                payment = 13000
+                payment = 1300
             },
             [10] = {
                 name = 'Major',
                 isboss = true,
                 bankAuth = true,
-                payment = 15000
+                payment = 1500
             },
             [11] = {
                 name = 'Deputy Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 18000
+                payment = 1800
             },
             [12] = {
                 name = 'Assistant Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 20000
+                payment = 2000
             },
             [13] = {
                 name = 'Chief Of Police',
                 isboss = true,
                 bankAuth = true,
-                payment = 22000
+                payment = 2200
             },
         },
     },
@@ -247,26 +247,36 @@ return {
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
-                payment = 50
+                name = 'Probationary',
+                payment = 800
             },
             [1] = {
-                name = 'Paramedic',
-                payment = 75
+                name = 'Firefighter',
+                payment = 1000
             },
             [2] = {
-                name = 'Doctor',
-                payment = 100
+                name = 'Lieutenant',
+                payment = 1200
             },
             [3] = {
-                name = 'Surgeon',
-                payment = 125
+                name = 'Captain',
+                payment = 1400
             },
             [4] = {
-                name = 'Chief',
+                name = 'Battalion Chief',
+                payment = 1600
+            },
+            [5] = {
+                name = 'Assistant Chief',
                 isboss = true,
                 bankAuth = true,
-                payment = 150
+                payment = 1800
+            },
+            [6] = {
+                name = ' Chief',
+                isboss = true,
+                bankAuth = true,
+                payment = 2000
             },
         },
     },
@@ -556,8 +566,8 @@ return {
             },
         },
     },
-    ['tobin'] = {
-        label = 'Tobin Towing',
+    ['toben'] = {
+        label = 'Toben Towing',
         type = 'mechanic',
         defaultDuty = true,
         offDutyPay = false,
