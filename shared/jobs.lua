@@ -392,27 +392,19 @@ return {
         },
     },
     ['cardealer'] = {
-        label = 'Luxury Auto Dealer',
+        label = 'Luxury Autos Dealer',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
+                name = 'Sales',
                 payment = 50
             },
             [1] = {
-                name = 'Showroom Sales',
+                name = 'Supervisor',
                 payment = 75
             },
             [2] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            [3] = {
-                name = 'Finance',
-                payment = 125
-            },
-            [4] = {
                 name = 'Manager',
                 isboss = true,
                 bankAuth = true,
@@ -426,22 +418,14 @@ return {
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
+                name = 'Sales',
                 payment = 50
             },
             [1] = {
-                name = 'Showroom Sales',
+                name = 'Supervisor',
                 payment = 75
             },
             [2] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            [3] = {
-                name = 'Finance',
-                payment = 125
-            },
-            [4] = {
                 name = 'Manager',
                 isboss = true,
                 bankAuth = true,
@@ -455,22 +439,14 @@ return {
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
+                name = 'Sales',
                 payment = 50
             },
             [1] = {
-                name = 'Showroom Sales',
+                name = 'Supervisor',
                 payment = 75
             },
             [2] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            [3] = {
-                name = 'Finance',
-                payment = 125
-            },
-            [4] = {
                 name = 'Manager',
                 isboss = true,
                 bankAuth = true,
@@ -479,27 +455,19 @@ return {
         },
     },
     ['redlineautos'] = {
-        label = 'Redline Autos Dealer',
+        label = 'Redline Performance',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
+                name = 'Sales',
                 payment = 50
             },
             [1] = {
-                name = 'Showroom Sales',
+                name = 'Supervisor',
                 payment = 75
             },
             [2] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            [3] = {
-                name = 'Finance',
-                payment = 125
-            },
-            [4] = {
                 name = 'Manager',
                 isboss = true,
                 bankAuth = true,
@@ -508,27 +476,19 @@ return {
         },
     },
     ['sanders'] = {
-        label = 'Saunders Motors',
+        label = 'Sanders Motors',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
             [0] = {
-                name = 'Recruit',
+                name = 'Sales',
                 payment = 50
             },
             [1] = {
-                name = 'Showroom Sales',
+                name = 'Supervisor',
                 payment = 75
             },
             [2] = {
-                name = 'Business Sales',
-                payment = 100
-            },
-            [3] = {
-                name = 'Finance',
-                payment = 125
-            },
-            [4] = {
                 name = 'Manager',
                 isboss = true,
                 bankAuth = true,
@@ -536,36 +496,36 @@ return {
             },
         },
     },
-    ['sandersmechanic'] = {
-        label = 'Saunders Motors Mechanic',
-        type = 'mechanic',
-        defaultDuty = true,
-        offDutyPay = false,
-        grades = {
-            [0] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            [1] = {
-                name = 'Novice',
-                payment = 75
-            },
-            [2] = {
-                name = 'Experienced',
-                payment = 100
-            },
-            [3] = {
-                name = 'Advanced',
-                payment = 125
-            },
-            [4] = {
-                name = 'Manager',
-                isboss = true,
-                bankAuth = true,
-                payment = 150
-            },
-        },
-    },
+    -- ['sandersmechanic'] = {
+    --     label = 'Saunders Motors Mechanic',
+    --     type = 'mechanic',
+    --     defaultDuty = true,
+    --     offDutyPay = false,
+    --     grades = {
+    --         [0] = {
+    --             name = 'Recruit',
+    --             payment = 50
+    --         },
+    --         [1] = {
+    --             name = 'Novice',
+    --             payment = 75
+    --         },
+    --         [2] = {
+    --             name = 'Experienced',
+    --             payment = 100
+    --         },
+    --         [3] = {
+    --             name = 'Advanced',
+    --             payment = 125
+    --         },
+    --         [4] = {
+    --             name = 'Manager',
+    --             isboss = true,
+    --             bankAuth = true,
+    --             payment = 150
+    --         },
+    --     },
+    -- },
     ['toben'] = {
         label = 'Toben Towing',
         type = 'mechanic',
@@ -656,36 +616,36 @@ return {
             },
         },
     },
-    ['redline'] = {
-        label = 'Redline Performance',
-        type = 'mechanic',
-        defaultDuty = true,
-        offDutyPay = false,
-        grades = {
-            [0] = {
-                name = 'Recruit',
-                payment = 50
-            },
-            [1] = {
-                name = 'Novice',
-                payment = 75
-            },
-            [2] = {
-                name = 'Experienced',
-                payment = 100
-            },
-            [3] = {
-                name = 'Advanced',
-                payment = 125
-            },
-            [4] = {
-                name = 'Manager',
-                isboss = true,
-                bankAuth = true,
-                payment = 150
-            },
-        },
-    },
+    -- ['redline'] = {
+    --     label = 'Redline Performance',
+    --     type = 'mechanic',
+    --     defaultDuty = true,
+    --     offDutyPay = false,
+    --     grades = {
+    --         [0] = {
+    --             name = 'Recruit',
+    --             payment = 50
+    --         },
+    --         [1] = {
+    --             name = 'Novice',
+    --             payment = 75
+    --         },
+    --         [2] = {
+    --             name = 'Experienced',
+    --             payment = 100
+    --         },
+    --         [3] = {
+    --             name = 'Advanced',
+    --             payment = 125
+    --         },
+    --         [4] = {
+    --             name = 'Manager',
+    --             isboss = true,
+    --             bankAuth = true,
+    --             payment = 150
+    --         },
+    --     },
+    -- },
     ['mechanic'] = {
         label = 'Mechanic',
         type = 'mechanic',
@@ -749,6 +709,35 @@ return {
     ['cruisin'] = {
         label = 'Cruisin Craftmen',
         type = 'mechanic',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Recruit',
+                payment = 50
+            },
+            [1] = {
+                name = 'Novice',
+                payment = 75
+            },
+            [2] = {
+                name = 'Experienced',
+                payment = 100
+            },
+            [3] = {
+                name = 'Advanced',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['blockbudz'] = {
+        label = 'Block Budz',
         defaultDuty = true,
         offDutyPay = false,
         grades = {
@@ -987,5 +976,62 @@ return {
             },
         },
     },
-
+    ['burgershot_v'] = {
+        label = 'Burgershot (Vespucci)',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Trainee',
+                payment = 50
+            },
+            [1] = {
+                name = 'Crew Member',
+                payment = 75
+            },
+            [2] = {
+                name = 'Senior Crew',
+                payment = 100
+            },
+            [3] = {
+                name = 'Shift Supervisor',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
+    ['atomicroute'] = {
+        label = 'Atomic Route',
+        defaultDuty = true,
+        offDutyPay = false,
+        grades = {
+            [0] = {
+                name = 'Trainee',
+                payment = 50
+            },
+            [1] = {
+                name = 'Crew Member',
+                payment = 75
+            },
+            [2] = {
+                name = 'Senior Crew',
+                payment = 100
+            },
+            [3] = {
+                name = 'Shift Supervisor',
+                payment = 125
+            },
+            [4] = {
+                name = 'Manager',
+                isboss = true,
+                bankAuth = true,
+                payment = 150
+            },
+        },
+    },
 }
