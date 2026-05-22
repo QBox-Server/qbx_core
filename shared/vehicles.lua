@@ -5939,15 +5939,15 @@ return {
     --     type = 'automobile',
     --     hash = `sheriff`,
     -- },
-    sheriff2 = {
-        name = 'Sheriff SUV',
-        brand = 'Declasse',
-        model = 'sheriff2',
-        price = 62617,
-        category = 'police',
-        type = 'automobile',
-        hash = `sheriff2`,
-    },
+    -- sheriff2 = {
+    --     name = 'Sheriff SUV',
+    --     brand = 'Declasse',
+    --     model = 'sheriff2',
+    --     price = 62617,
+    --     category = 'police',
+    --     type = 'automobile',
+    --     hash = `sheriff2`,
+    -- },
     shinobi = {
         name = 'Shinobi',
         brand = 'Nagasaki',
@@ -8259,6 +8259,15 @@ return {
         type = 'automobile',
         hash = `ppgjv`,
     },
+    vv150em = {
+        name = 'Venator V150',
+        brand = 'Vapid',
+        model = 'vv150em',
+        price = 25000,
+        category = 'police',
+        type = 'automobile',
+        hash = `vv150em`,
+    },
         -- Utility
     vrunnerrc = {
         name = 'Runner Flatbed',
@@ -8415,61 +8424,6 @@ return {
         hash = `sent6`,
     },
     -- [[ JA Designs ]] --
-        -- DOT
-    dotf150cc = {
-        name = 'V150 Crew Cab (DOT)',
-        brand = 'Vapid',
-        model = 'dotf150cc',
-        price = 20000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotf150cc`,
-    },
-    dotf150ec = {
-        name = 'V150 Extended Cab (DOT)',
-        brand = 'Vapid',
-        model = 'dotf150ec',
-        price = 20000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotf150ec`,
-    },
-    dotf250 = {
-        name = 'V250 (DOT)',
-        brand = 'Vapid',
-        model = 'dotf250',
-        price = 22000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotf250`,
-    },
-    dotf450 = {
-        name = 'V450 (DOT)',
-        brand = 'Vapid',
-        model = 'dotf450',
-        price = 25000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotf450`,
-    },
-    dotram = {
-        name = 'Bison (DOT)',
-        brand = 'Bravado',
-        model = 'dotram',
-        price = 20000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotram`,
-    },
-    dotsierra = {
-        name = 'Yosemite (DOT)',
-        brand = 'Declasse',
-        model = 'dotsierra',
-        price = 25000,
-        category = 'industrial',
-        type = 'automobile',
-        hash = `dotsierra`,
-    },
         -- Ambulances
     f450ambo = {
         name = 'V450 Ambulance',
@@ -8498,4 +8452,14 @@ return {
     --     type = 'automobile',
     --     hash = `c3mdambo`,
     -- },
+    -- [[ gang vehicles ]] --
+    medina23 = {
+        name = 'Medina 23',
+        brand = 'Western',
+        model = 'medina23',
+        price = 10000,
+        category = 'angels',
+        type = 'bike',
+        hash = `medina23`,
+    },
 }
